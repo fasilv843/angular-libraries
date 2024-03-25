@@ -9,6 +9,13 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
+    "paths": {
+      "@@models": ["dist/models"]
+      // "models": [
+      //   // "dist/models"
+      //   "@@models"
+      // ]
+    },
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
