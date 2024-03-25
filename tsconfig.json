@@ -10,11 +10,12 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "paths": {
-      "@@models": ["dist/models"]
-      // "models": [
-      //   // "dist/models"
-      //   "@@models"
-      // ]
+      "@@models": [
+        "dist/models"
+      ],
+      "@@auth": [
+        "dist/auth"
+      ]
     },
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
